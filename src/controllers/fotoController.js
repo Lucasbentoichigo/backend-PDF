@@ -1,6 +1,6 @@
 import AlunoModel from '../models/AlunoModel.js';
 import fs from 'fs';
-import { processarFoto, removerFoto } from '../utils/fotoHelper.js';
+import { upload, removerFoto } from '../utils/fotoHelper.js';
 
 export const uploadFoto = async (req, res) => {
     try {
